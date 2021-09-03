@@ -185,8 +185,8 @@ nav {
   transition: 0.75s linear;
 }
 .plan-container:hover .plan-img {
-  width: 120%;
-  transition: 0.75s linear;
+  transform: scale(1.09);
+  transition: 0.5s linear;
 }
 .plan-img {
   width: 100%;
