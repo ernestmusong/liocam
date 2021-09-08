@@ -35,16 +35,14 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  letter-spacing: var(--spacing);
+h2 {
   text-transform: uppercase;
-  line-height: 1.25;
   margin-bottom: 2rem;
   margin-top: 2rem;
   font-family: var(--ff-primary);
-  font-size: 1.5rem;
-  font-weight: bolder;
+  font-weight: bold;
 }
+
 /* navbar */
 
 nav {
@@ -182,11 +180,11 @@ nav {
   -ms-transform: translate(-50%, -50%); */
   top: 50%;
   right: 0;
-  transition: 0.75s linear;
+  transition: 0.3s linear;
 }
 .plan-container:hover .plan-img {
   transform: scale(1.09);
-  transition: 0.5s linear;
+  transition: 0.3s linear;
 }
 .plan-img {
   width: 100%;
@@ -195,11 +193,12 @@ nav {
   top: 50%;
   right: -50%;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: var(--spacing);
   width: 50%;
   text-transform: capitalize;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   position: absolute;
   border: 2px solid blue;
   border-radius: 4px;
@@ -221,6 +220,7 @@ nav {
 
 .plan-title h3 {
   text-transform: uppercase;
+  font-size: 1.5rem;
 }
 
 /* footer */
